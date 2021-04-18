@@ -10,7 +10,7 @@ using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Commands;
 using PaymentContext.Shared.Handlers;
 
-namespace PaymentContext.Domain.H
+namespace PaymentContext.Domain.Handlers
 {
   public class SubscriptionHandler : Notifiable<Notification>, IHandler<CreateBoletoSubscriptionCommand>
   {
